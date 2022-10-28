@@ -1,0 +1,28 @@
+body {
+    background-color: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    display:flex;
+
+
+}
+div {
+    display: flex;
+    background-color: #F7EC7D;
+    width: 100px;
+    height: 100px;
+}
+div:first-child {
+    margin:100px 0 0 0;
+    border-radius: 0 0 50px 50px;
+}
+div:nth-child(2) {
+    border-radius: 50px 50px 0 0;
+}
+div:nth-child(3) {
+    margin:100px 0 0 0;
+    border-radius: 0 0 50px 50px;
+}

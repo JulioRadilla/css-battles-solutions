@@ -1,0 +1,31 @@
+body {
+    background:#6592CF;
+  }
+  section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .square {
+    display:flex;
+    width: 300;
+    height: 150;
+    background:#243D83;
+    margin:67 0;
+  }
+  .outer {
+    width:150;
+    height:150;
+    border-radius:200px;
+    border:50px solid #6592CF;
+    margin:-50 25;
+    background:#243D83;
+  }
+  .middle {
+    width:50;
+    height:50;
+    background:#EEB850;
+    margin:50 50;
+    border-radius:100px;
+  }
