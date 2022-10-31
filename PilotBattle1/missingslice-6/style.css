@@ -3,14 +3,14 @@ body{
     margin: 0;
   }
   .top{
-    height:50%;
+    height:50vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
   }
   .bottom{
-    height:50%;
+    height:50vh;
     width: 100%;
     display: flex;
     justify-content: center;
