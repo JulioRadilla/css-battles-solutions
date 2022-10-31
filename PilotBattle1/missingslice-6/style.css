@@ -1,0 +1,38 @@
+body{
+    background: #E3516E;
+    margin: 0;
+  }
+  .top{
+    height:50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .bottom{
+    height:50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .one{
+    background: #51B5A9;
+    border-radius: 100% 0 0 0 ;
+  }
+  .two{
+    background: #FADE8B;
+    border-radius: 0 100% 0 0;
+  }
+  .three{
+    background: #F7F3D7;
+    border-radius: 0 0 0 100%;
+  }
+  .four{
+    background: #E3516E;
+    border-radius: 0 0 100% 0;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #dd6b4d;
+  }
