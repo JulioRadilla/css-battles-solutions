@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+     background: #09042A;
+      height: 100vh;
+      width: 100vh;
+    }
+    div {
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+    }
+    .left-circle{
+      background: #7B3F61;
+      position: absolute;
+      left:75px;
+      top: 75px;
+    } 
+    .right-circle{
+    background: #E78481;
+      position: absolute;
+      right: 75px;
+      top: 75px;
+      overflow: hidden;
+    }
+    .inner-circle{
+      height: 140px;
+      width:140px;
+      background: #09042A;
+      position: absolute;
+      left: -90px;
+      top: 5px;  
+    }
