@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #09042A;
+  }
+  div {
+    width: 61px;
+    height: 61px;
+    background: #F5BB9C;
+    border-radius: 50%;
+    position: absolute;
+  }
+ .white-circle{
+   left: 170px;
+   top: 65px;
+   box-shadow: 0 0 0 11px #09042A;
+ }
+  .white-circle-two{
+   left: 170px;
+   top: 175px;
+  box-shadow: 0 0 0 11px #09042A;
+ }
+  .dark-blue-circle{
+    left:100px;
+    top: 110px;
+    background: #09042A;
+    border: 10px solid #E78481;
+  }
+  .dark-blue-circle-two{
+    left:220px;
+    top: 110px;
+    background: #09042A;
+    border: 10px solid #E78481;
+  }
+  .rectangle{
+    width:  67px;
+    height: 60px;
+    background: #E78481;
+    border-radius: 50% 0 0 0;
+    z-index: -1;
+    position: relative;
+    left: 50px;
+  }
