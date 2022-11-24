@@ -1,0 +1,36 @@
+body{
+    background: #F5D6B4;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .rec{
+    width: 180px;
+    height:50px;
+    background: #D86F45;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    top: 165px;
+    left: 120px;
+  }
+  .rec:before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: #D86F45;
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+    left: -20px;
+  }
+  .rec:after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: #D86F45;
+    border-radius: 100%;
+    position: absolute;
+    top: -80px;
+    left: 60px;
+  }
