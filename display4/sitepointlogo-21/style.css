@@ -1,0 +1,48 @@
+body{
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .longO {
+    width: 30px;
+    height: 100px;
+    background: #F2994A;
+    transform: rotate(45deg);
+    position: absolute;
+    border-radius: 0 0 0 10px;
+    top: 58px;
+    left: 155px;
+  }
+ 
+  .shortO {
+    width: 30px;
+    height: 55px;
+    background:#F2994A;
+    transform:rotate(135deg);
+    position: absolute;
+    border-radius: 5px 0 0 0;
+    bottom: 114px;
+    left: 157px;
+  }
+ 
+  .longB{
+    width: 30px;
+    height: 100px;
+    background: #2D9CDB;
+    transform: rotate(-135deg);
+    position: absolute;
+    border-radius: 0 0 0 10px;
+    bottom: 58px;
+    right: 157px;
+  }
+  .shortB{
+    width: 30px;
+    height: 55px;
+    background: #2D9CDB;
+    transform: rotate(-45deg);
+    position: absolute;
+    border-radius: 5px 0 0 0;
+    top: 113.5px;
+    right: 160px;
+  }
