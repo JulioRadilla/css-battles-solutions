@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: #E38F66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background: #AA445F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  div:after{
+    content: '';
+    height: 80px;
+    width: 80px;
+    position:absolute;
+    border-radius: 50% 50% 50% 50%; 
+    border: 30px solid #F7EC7D;
+    border-top-color: #AA445F; 
+    border-bottom-color: #AA445F;
+    transform: rotate(-45deg)
+  }
