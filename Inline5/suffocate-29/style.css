@@ -1,0 +1,43 @@
+body{
+    background: #F3AC3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .square{
+    width: 200px;
+    height: 200px;
+    background: #1A4341;
+  }
+  .circle1{
+    height: 100px;
+    width: 100px;
+    background: #F3AC3C;
+    border-radius: 0 0 100% 0;
+  }
+  .circle2{
+    height: 100px;
+    width: 100px;
+    background: #F3AC3C;
+    border-radius: 0 100% 0 0;
+    position: relative;
+  }
+  .circle3{
+    height: 100px;
+    width: 100px;
+    background: #F3AC3C;
+    border-radius: 100% 0 0 0;
+    position: relative;
+    top: -100px;
+    right: -100px;
+  }
+  .circle4{
+    height: 100px;
+    width: 100px;
+    background: #F3AC3C;
+    border-radius: 0 0 0 100%;
+    position: relative;
+    top: -300px;
+    right: -100px;
+  }
