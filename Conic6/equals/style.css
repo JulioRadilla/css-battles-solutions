@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background: #AA445F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  section{
+    display: flex;
+    gap: 50px;
+  }
+  div {
+    width: 100px;
+    height: 200px;
+    background: #dd6b4d;
+  }
+  .left{
+    border-radius: 100px 0 0 100px;
+    background: #F7EC7D;
+  }
+  .right{
+    border-radius: 0 100px 100px 0;
+    background: #E38F66;
+  }
