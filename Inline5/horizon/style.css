@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  .top{
+    width: 100vw;
+    height: 50px;
+    background: #F7EC7D;
+  }
+  .top-bottom{
+    width: 100vw;
+    height: 50px;
+    background: #E38F66;
+  }
+  .bottom-top{
+    width: 100vw;
+    height: 100px;
+    background: #AA445F;
+  }
+  .bottom{
+    width: 100vw;
+    height: 100px;
+    background: #62306D;
+  }
