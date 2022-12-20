@@ -1,0 +1,37 @@
+*{
+    padding: 0; 
+    margin: 0;
+  }
+  body{
+    height: 100vh;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-square{
+    width: 50px;
+    height: 50px;
+    background: #dd6b4d;
+    transform: rotate(45deg);
+    background: #FBE18C;
+  }
+  .green-rec{
+    height: 200px;
+    width: 50px;
+    background: #A3A368;
+    position: absolute;
+    top: 50;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+  .orange-rec{
+    height: 200px;
+    width: 50px;
+    background: #F3AC3C;
+    position: absolute;
+    top: 50;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
