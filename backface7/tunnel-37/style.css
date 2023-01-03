@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+  }  
+  body{
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .big {
+    width: 250px;
+    height: 250px;
+    background: #243D83;
+    display: flex;
+  }
+  .big:before{
+    content: '';
+    height: 150px;
+    width: 150px;
+    background: #6592CF;
+    position: absolute;
+    left: 125px;
+    top: 75px;
+    transform: rotate(15deg);
+    }
+  .big:after{
+    content: '';
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    background: #243D83;
+    top: 114px;
+    left: 165px;
+    transform: rotate(30deg)  
+  }
