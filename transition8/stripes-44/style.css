@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background: #1A4341;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25em;
+  }  
+  div {
+    width: 200px;
+    height: 20px;
+    background: #F3AC3C;
+  }
+  .before:before{
+    content: '';
+    position: absolute;
+    height: 345px;
+    width: 400px;
+    background: #1A4341;
+    border-radius: 50%;
+    left: -250px;
+    top: -20px;
+  }
+  .before:after{
+    content: '';
+    position: absolute;
+    height: 345px;
+    width: 400px;
+    background: #1A4341;
+    border-radius: 50%;
+    left: 250px;
+    top: -20px;
+  }
