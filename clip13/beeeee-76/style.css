@@ -1,0 +1,50 @@
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background: #998235;
+  }
+   .bee {
+     position: relative;
+    width: 150px;
+    height: 75px;
+    background: #EFF33C;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 50%;
+    transform: translate(-50%);
+    background: linear-gradient(
+      to right,
+      #191919 25px,
+      #EFF33C 25px, #EFF33C 35px,
+      #191919 35px, #191919 60px,
+      #EFF33C 60px,  #EFF33C 70px,
+      #191919 70px, #191919 95px,
+      #EFF33C 95px
+    )
+  }
+  .bee:after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: #191919;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
+  }
+  .bee:before{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: white;
+    top: -75px;
+    border-radius: 100% 100% 0 100%;
+    -webkit-box-reflect: right;
+  }
